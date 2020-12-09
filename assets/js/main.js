@@ -148,3 +148,17 @@
 //     potenze.shift();
 //     potenze.push(calcPotenze);
 // }
+
+/////////////////////////////////////////////
+
+// JSnack 8
+
+// Chiedi un numero di 4 cifre all’utente e calcola la somma di tutte le cifre che compongono il numero.
+
+// let sum = 0;
+// let numeroUtente = prompt('inserisci un numero a quattro cifre');
+// for (index = 0; index < numeroUtente.length; index++) {
+//     let n = Number(numeroUtente[index]);
+//     sum = sum + n;
+// }
+// console.log(sum);
