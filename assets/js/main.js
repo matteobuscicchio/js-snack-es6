@@ -126,9 +126,25 @@
 // Stampa il cubo dei primi N numeri, dove N è un numero indicato dall’utente.
 
 // const numeroUtente = Number(prompt(`inserisci un numero`));
-// var num = 1;
+// let num = 1;
 // while (num <= numeroUtente) {
 //     let calcolo = Math.pow(num, 3);
 //     console.log(calcolo);
 //     num++;
+// }
+
+/////////////////////////////////////////////
+
+// JSnack 7
+
+// Stampa le potenze di 2 fino a 1000.
+
+// const num = 2;
+// const potenze = [];
+// potenze.push(num);
+// while (potenze < 1000) {
+//     console.log(`potenze di due ${potenze}`);
+//     let calcPotenze = Math.pow(potenze, 2);
+//     potenze.shift();
+//     potenze.push(calcPotenze);
 // }
