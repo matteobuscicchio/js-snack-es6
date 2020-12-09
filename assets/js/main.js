@@ -118,3 +118,17 @@
 //     }
 // }
 // console.log(`containerVuoto ${containerVuoto}`);
+
+/////////////////////////////////////////////
+
+// JSnack 6
+
+// Stampa il cubo dei primi N numeri, dove N è un numero indicato dall’utente.
+
+// const numeroUtente = Number(prompt(`inserisci un numero`));
+// var num = 1;
+// while (num <= numeroUtente) {
+//     let calcolo = Math.pow(num, 3);
+//     console.log(calcolo);
+//     num++;
+// }
