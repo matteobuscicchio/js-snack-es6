@@ -162,3 +162,16 @@
 //     sum = sum + n;
 // }
 // console.log(sum);
+
+/////////////////////////////////////////////
+
+// JSnack 9
+
+// Calcola la somma e la media dei primi 10 numeri.
+
+// let sum = 0;
+// for (let index = 1; index <= 10; index++) {
+//     sum += index;
+// }
+// console.log(`somma ${sum}`);
+// console.log(`media ${sum/2}`);
