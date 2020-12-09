@@ -47,9 +47,59 @@
 
 // Il software deve chiedere per 5 volte all’utente di inserire un numero. Il programma stampa la somma di tutti i numeri inseriti. Esegui questo programma in due versioni, con il for e con il while.
 
-let sum = 0;
-for (let i = 0; i < 5; i++) {
-    let numeroUtente = Number(prompt('inserisci un numero'));
-    sum += numeroUtente;
-}
-console.log(`somma ${sum}`);
+// ciclo for
+// let sum = 0;
+// for (let i = 0; i < 5; i++) {
+//     let numeroUtente = Number(prompt('inserisci un numero'));
+//     sum += numeroUtente;
+// }
+// console.log(`somma ${sum}`);
+// ciclo while
+// let index = 0
+// while (index < 5) {
+//     let numeroUtente = Number(prompt('inserisci un numero'));
+//     sum += numeroUtente;
+//     index++;
+// }
+// console.log(`somma ${sum}`);
+
+/////////////////////////////////////////////
+
+// JSnack 4
+
+// In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
+
+// const userName = prompt('quale è il tuo nome?');
+// const invitatiFesta = [
+//     `giorgio`, 
+//     `laura`, 
+//     `fausto`, 
+//     `lorenzo`, 
+//     `dragoberto`, 
+//     `willy`, 
+//     `tronoDelMuori`, 
+//     `qdss`,
+//     `V`
+// ];
+
+// let controllo = 0;
+
+// let index =0;
+// while (index  < invitatiFesta.length) {
+//     if (userName == invitatiFesta[index]) {
+//         controllo++;
+//     }
+//     index++;
+// }
+
+// const checkCognome = (ck) => {
+//     if (ck > 0) {
+//         return true
+//     }
+// }
+// // console.log(checkCognome(controllo));
+// if (checkCognome(controllo) === true) {
+//     console.log(`puoi entrare`);
+// } else {
+//     console.log(`spiacente`);
+// }
