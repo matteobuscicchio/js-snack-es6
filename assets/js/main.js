@@ -103,3 +103,18 @@
 // } else {
 //     console.log(`spiacente`);
 // }
+
+/////////////////////////////////////////////
+
+// JSnack 5
+
+// Crea un array vuoto. Chiedi per 6 volte all’utente di inserire un numero. Se è dispari inseriscilo nell’array.
+
+// const containerVuoto = [];
+// for (let index = 0; index < 6; index++) {
+//     let numeroUtente = Number(prompt(`inserisci un numero`));
+//     if (numeroUtente % 2 !==0) {
+//         containerVuoto.push(numeroUtente);
+//     }
+// }
+// console.log(`containerVuoto ${containerVuoto}`);
